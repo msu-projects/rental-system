@@ -1,7 +1,6 @@
 plugins {
     id("java")
     id("com.gradleup.shadow") version "9.2.2"
-    id("edu.sc.seis.launch4j") version "3.0.6"
 }
 
 group = "com.istarvin"
@@ -36,15 +35,4 @@ tasks {
         }
         mergeServiceFiles()
     }
-}
-
-launch4j {
-    mainClassName.set("com.istarvin.SakilaApplication")
-    outfile = "rental-system.exe"
-    jarTask = tasks.shadowJar.get()
-    headerType.set("gui")
-    jreMinVersion.set("8")
-    dontWrapJar.set(false)
-    bundledJrePath.set("jre")
-    jvmOptions.set(listOf("-Xmx512m"))
 }
