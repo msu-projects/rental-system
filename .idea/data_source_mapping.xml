@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/sql/01_create_view.sql" value="11d4b56e-ddba-490e-99c2-129329a3fcad" />
+    <file url="file://$PROJECT_DIR$/sql/02_create_stored_procedure.sql" value="11d4b56e-ddba-490e-99c2-129329a3fcad" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/istarvin/model/FilmDAO.java" value="11d4b56e-ddba-490e-99c2-129329a3fcad" />
+  </component>
+</project>
